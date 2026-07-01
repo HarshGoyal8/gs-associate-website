@@ -23,7 +23,7 @@ export default function Hero() {
             architects, and dealers.
           </Paragraph>
 
-          <div className="mt-10 flex gap-4">
+          <div className="mt-6 flex gap-2">
             <Button>
               Explore Products
             </Button>

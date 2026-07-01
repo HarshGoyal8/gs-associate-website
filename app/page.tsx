@@ -5,6 +5,8 @@ import Container from "@/components/layout/Container";
 import { H1, Paragraph } from "@/components/ui/typography";
 import Button from "@/components/ui/Button";
 import Hero from "@/components/sections/Hero";
+import ProductCategories from "@/components/sections/ProductCategories";
+import FeaturedBrands from "@/components/sections/FeaturedBrands";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
 
       <main>
         <Hero />
+        <ProductCategories />
+        <FeaturedBrands />
       </main>
       <Footer />
     </>
