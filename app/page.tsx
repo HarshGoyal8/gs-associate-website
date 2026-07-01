@@ -4,6 +4,7 @@ import Section from "@/components/layout/Section";
 import Container from "@/components/layout/Container";
 import { H1, Paragraph } from "@/components/ui/typography";
 import Button from "@/components/ui/Button";
+import Hero from "@/components/sections/Hero";
 
 export default function Home() {
   return (
@@ -11,17 +12,7 @@ export default function Home() {
       <Navbar />
 
       <main>
-        <Section>
-          <Container>
-            <H1>GS Associate</H1>
-            <Paragraph className="mt-6">
-              Premium Plywood & Interior Solutions
-              </Paragraph>
-              <Button className="mt-8">
-                Explore Products
-                </Button>
-          </Container>
-        </Section>
+        <Hero />
       </main>
       <Footer />
     </>
